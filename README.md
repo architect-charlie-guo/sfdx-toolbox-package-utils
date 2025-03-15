@@ -10,6 +10,7 @@ Utilities to better manage SalesforceDX Packages
 - [Contents](#contents)
 - [Setup](#setup)
 - [Commands](#commands)
+
 <!-- tocstop -->
 
 # Setup
@@ -47,3 +48,12 @@ sfdx plugins:link .
 <!-- commands -->
 
 <!-- commandsstop -->
+
+# Code
+find src -name '*.ts' | xargs wc -l 
+      70 src/shared/packageUtils.ts
+      25 src/schemas/packageDirs.ts
+     453 src/commands/toolbox/package/dependencies/install.ts
+     170 src/commands/toolbox/package/version/cleanup.ts
+       1 src/index.ts
+     719 total
